@@ -1,0 +1,87 @@
+:root {
+  --primary-color: rgb(255, 55, 0);
+  --secundary-color: rgb(30, 30, 30);
+  --dark-color: rgb(10, 10, 10);
+  --light-color: rgb(230, 230, 230);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: var(--secundary-color);
+  padding: 20px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+  background-color: var(--dark-color);
+  border-radius: 8px 0 0 8px;
+  color: white;
+  outline: none;
+}
+
+button {
+  width: 60px;
+  height: 30px;
+  padding: 5px;
+  background-color: var(--dark-color);
+  border-radius: 0 8px 8px 0;
+  align-items: center;
+  transition: 400ms;
+  color: var(--primary-color);
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover{
+  background-color: var(--secundary-color);
+}
+
+ul {
+  list-style: none;
+  color: white;
+}
+
+li {
+  clear: both;
+  margin-top: 20px;
+}
+
+img {
+  width: 80px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+strong {
+  font-size: 20px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover{
+  color: var(--light-color);
+}
+
+span{
+  color: var(--primary-color);
+}
