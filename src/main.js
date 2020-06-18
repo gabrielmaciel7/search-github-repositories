@@ -82,11 +82,14 @@ class App {
       linkEl.setAttribute("href", repo.html_url);
       linkEl.appendChild(document.createTextNode("Access"));
 
+      let divEl = document.createElement('div');
+      divEl.appendChild(titleEl);
+      divEl.appendChild(descriptionEl);
+      divEl.appendChild(linkEl);
+
       let listItemEl = document.createElement("li");
       listItemEl.appendChild(imgEl);
-      listItemEl.appendChild(titleEl);
-      listItemEl.appendChild(descriptionEl);
-      listItemEl.appendChild(linkEl);
+      listItemEl.appendChild(divEl);
 
       this.listEl.appendChild(listItemEl);
     });

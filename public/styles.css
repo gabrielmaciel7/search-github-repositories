@@ -18,11 +18,11 @@ html {
 
 body {
   background-color: var(--secundary-color);
-  padding: 20px;
+  padding: 40px;
 }
 
 input {
-  width: 300px;
+  width: 440px;
   height: 30px;
   padding: 5px;
   background-color: var(--dark-color);
@@ -54,8 +54,11 @@ ul {
 }
 
 li {
+  width: 500px;
   clear: both;
   margin-top: 20px;
+  display: flex;
+  align-items: center;
 }
 
 img {
@@ -71,11 +74,13 @@ strong {
 
 p {
   margin: 5px 0;
+  font-size: 15px;
 }
 
 a {
   text-decoration: none;
   color: var(--primary-color);
+  font-size: 15px;
 }
 
 a:hover{
