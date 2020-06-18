@@ -5,7 +5,7 @@
 <br>
 
 <h3> Preview: </h3>
-<img src="https://github.com/gabrielmaciel7/search-github-repositories/blob/master/search-github-repositories.gif" />
+<img src="https://github.com/gabrielmaciel7/search-github-repositories/blob/master/search-github-repositories-gif.gif" />
 
 <br>
 
